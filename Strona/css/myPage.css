@@ -1,0 +1,400 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-padding-top: 80px;
+}
+
+body {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ebecf2;
+  font-size: 26px;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  width: 90px;
+  height: 4px;
+  background-color: #039dff;
+  margin: 0 auto 40px;
+  z-index: 10;
+}
+
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fa-headset {
+  font-size: 36px;
+}
+
+nav {
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-transition: background-color .6s;
+  transition: background-color .6s;
+  z-index: 1;
+}
+
+nav span {
+  color: #039dff;
+}
+
+nav .nav-link,
+nav i {
+  color: #fff;
+  font-size: 22px;
+}
+
+nav .nav-link:hover {
+  color: #039dff;
+}
+
+nav .fa-bars {
+  padding: 10px;
+}
+
+nav .navbar-brand {
+  font-weight: bold;
+}
+
+nav .active {
+  color: #039dff;
+}
+
+header {
+  color: #fff;
+}
+
+header .hero-img {
+  position: relative;
+  height: 100vh;
+  background-image: url(../img/game-console-6603120_640.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+header .hero-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -10;
+}
+
+header .hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  padding: 10px;
+  text-align: center;
+  z-index: 5;
+}
+
+header h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+header span {
+  color: #039dff;
+}
+
+header p {
+  font-size: 14px;
+}
+
+header .btn {
+  text-transform: uppercase;
+}
+
+header .fa-solid {
+  position: absolute;
+  padding: 15px;
+  font-size: 40px;
+  bottom: 20px;
+  z-index: 5;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.aboutus i {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.aboutus .aboutus-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.aboutus .abourus-card-text {
+  font-size: 14px;
+}
+
+.aboutus .aboutus-hover {
+  -webkit-transition: color .4s;
+  transition: color .4s;
+}
+
+.aboutus .aboutus-hover:hover {
+  color: #039dff;
+}
+
+main {
+  color: #555;
+  font-size: 18px;
+}
+
+.aboutus-hero {
+  position: relative;
+  background-image: url(../img/technology-ga4f8ed5e9_640.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  z-index: -1;
+}
+
+.aboutus-hero .underline {
+  margin-bottom: 100px;
+}
+
+.aboutus-hero .aboutus-hero-item {
+  margin: 10px 0;
+}
+
+.aboutus-hero .aboutus-hero-item i {
+  font-size: 36px;
+}
+
+.aboutus-hero .aboutus-hero-item .aboutus-hero-title {
+  font-size: 24px;
+}
+
+.aboutus-hero .aboutus-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.portfolio h2 {
+  color: #222;
+}
+
+.portfolio .carousel-item {
+  position: relative;
+  height: 600px;
+}
+
+.portfolio .carousel-item .carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.portfolio .carousel-item .carousel-caption h5 {
+  color: #fff;
+}
+
+.portfolio .carousel-item .carousel-caption p {
+  color: #fff;
+}
+
+.portfolio .carousel-indicators {
+  padding-bottom: 20px;
+}
+
+.portfolio .carousel-indicators button {
+  z-index: 2;
+}
+
+.portfolio .card {
+  margin: 15px;
+  color: #222;
+}
+
+.portfolio .card-title {
+  font-size: 26px;
+}
+
+.portfolio .card-text {
+  font-size: 16px;
+}
+
+.portfolio .card-img-top {
+  height: 300px;
+}
+
+.prices {
+  color: #333;
+}
+
+.prices .price-box {
+  margin: 20px 10px;
+  padding: 30px;
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.prices .price-box h3 {
+  color: #039dff;
+  text-transform: uppercase;
+}
+
+.prices .price-box span {
+  font-weight: bold;
+}
+
+.prices .price-box i {
+  padding: 0 5px;
+  font-size: 24px;
+}
+
+.prices .price-box button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.prices .price-box .price-tag {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.prices .text {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.prices .text .price-info {
+  font-size: 20px;
+}
+
+.prices .text a {
+  text-decoration: none;
+}
+
+.prices .text a i {
+  padding: 10px;
+}
+
+.team {
+  position: relative;
+  background-image: url(../img/meetingRoom.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 60vh;
+  color: #222;
+  font-size: 14px;
+}
+
+.team h2 {
+  color: #fff;
+}
+
+.team .team-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -10;
+}
+
+.team .card {
+  -webkit-transition: .4s;
+  transition: .4s;
+  z-index: 10;
+}
+
+.team .card img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.team .card:hover {
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
+}
+
+.team i {
+  color: #039dff;
+  font-size: 20px;
+}
+
+@media (min-width: 375px) {
+  nav .nav-link {
+    font-size: 18px;
+  }
+  header h1 {
+    font-size: 36px;
+  }
+  header p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  nav {
+    font-size: 22px;
+  }
+  header h1 {
+    font-size: 36px;
+  }
+  header p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  nav {
+    height: 82px;
+  }
+  .aboutus-hero {
+    background-image: url(../img/technology-big.jpg);
+  }
+}
+
+@media (min-width: 1200px) {
+  header .hero-img {
+    background-image: url(../img/game-console-6603120_1920.jpg);
+  }
+}
