@@ -1,0 +1,47 @@
+.aboutus i {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.aboutus .aboutus-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.aboutus .abourus-card-text {
+  font-size: 14px;
+}
+
+.aboutus-hero {
+  position: relative;
+  background-image: url(../img/technology-ga4f8ed5e9_640.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  z-index: -1;
+}
+
+.aboutus-hero .underline {
+  margin-bottom: 100px;
+}
+
+.aboutus-hero .aboutus-hero-item {
+  margin: 10px 0;
+}
+
+.aboutus-hero .aboutus-hero-item i {
+  font-size: 36px;
+}
+
+.aboutus-hero .aboutus-hero-item .aboutus-hero-title {
+  font-size: 24px;
+}
+
+.aboutus-hero .aboutus-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}

@@ -1,0 +1,33 @@
+nav {
+    text-transform: uppercase;
+    background-color: rgba(0,0,0, .8);
+    transition: background-color .6s;
+    z-index: 1;
+
+
+    span {
+        color: $main-color;
+    }
+
+    .nav-link,
+    i {
+        color: $white;
+        font-size: 22px;
+    }
+
+    .nav-link:hover {
+        color: $main-color;
+    }
+
+    .fa-bars {
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        font-weight: bold;
+    }
+
+    .active {
+        color: $main-color;
+    }
+}

@@ -1,0 +1,60 @@
+.aboutus {
+    
+    i {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .aboutus-card-title {
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    .abourus-card-text {
+        font-size: 14px;
+    }
+
+    .aboutus-hover {
+        transition:  color .4s;
+    }
+
+    .aboutus-hover:hover {
+        color: $main-color;
+    }
+}
+
+.aboutus-hero {
+    position: relative;
+    background-image: url(../img/technology-ga4f8ed5e9_640.jpg);
+
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    z-index: -1;
+
+    .underline {
+        margin-bottom: 100px;
+    }
+
+    .aboutus-hero-item {
+        margin: 10px 0;
+
+        i {
+            font-size: 36px;
+        }
+
+        .aboutus-hero-title {
+            font-size: 24px;
+        }
+    }
+    
+    .aboutus-shadow {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0, .5);
+        z-index: 0;
+    }
+
+}

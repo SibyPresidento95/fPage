@@ -1,0 +1,57 @@
+.portfolio {
+
+    h2 {
+        color: #222;
+    }
+    
+    .carousel-item {
+        position: relative;
+        height: 600px;
+
+        .carousel-caption {
+
+            position: absolute;
+            left: 0;
+            right: 0;
+            background-color: rgba(0,0,0, .7);
+            
+            h5 {
+               color: $white;
+            }
+    
+            p {
+               color: $white;
+            }
+        }
+        
+
+    }
+
+    .carousel-indicators {
+        padding-bottom: 20px;
+
+        button {
+            z-index: 2;
+        }
+    }
+
+    .card {
+        margin: 15px;
+        color: #222;
+
+    }
+
+    .card-title {
+        font-size: 26px;
+    }
+
+    .card-text {
+        font-size: 16px;
+    }
+
+    .card-img-top {
+        height: 300px;
+        
+    }
+
+}

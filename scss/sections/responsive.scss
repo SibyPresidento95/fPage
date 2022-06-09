@@ -1,0 +1,82 @@
+@media (min-width: 375px) {
+
+    nav {
+
+        .nav-link {
+            font-size: 18px;
+        }
+    }
+
+
+    header {
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .contact {
+        .conrainer {
+            .contact-us {
+                .contact-item{
+                    p {
+
+                        font-size: 14px;
+                    }
+
+                }
+            }
+        }
+    }
+}   
+
+@media (min-width: 768px) {
+
+    nav {
+        font-size: 22px;
+    }
+
+
+
+    header {
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 16px;
+
+        }
+    }
+    
+}  
+
+@media (min-width: 992px) {
+
+    nav {
+        height: 82px;
+    }
+    
+    .aboutus-hero {
+        background-image: url(../img/technology-big.jpg);
+    }
+    
+}   
+
+@media (min-width: 1200px) {
+
+    header {
+        .hero-img {
+            background-image: url(../img/game-console-6603120_1920.jpg);
+            
+        }
+
+        
+    }
+
+} 

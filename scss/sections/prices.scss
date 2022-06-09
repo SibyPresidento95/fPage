@@ -1,0 +1,53 @@
+.prices {
+
+    color: #333;
+
+    .price-box {
+        margin: 20px 10px;
+        padding: 30px;
+        background-color: $white;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, .4);
+        transition: transform .3s;
+
+        h3 {
+            color: $main-color;
+            text-transform: uppercase;
+        }
+
+        span {
+            font-weight: bold;
+        }
+
+        i {
+            padding: 0 5px;
+            font-size: 24px;
+        }
+
+        button {
+            padding: 10px 20px;
+            text-transform: uppercase;
+        }
+
+        .price-tag {
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+
+    .text {
+
+        margin-top: 20px;
+        font-size: 16px;
+        
+        .price-info {
+            font-size: 20px; 
+        }
+
+        a {
+            text-decoration: none;
+            i {
+                padding: 10px;
+            }
+        }
+    }
+}
