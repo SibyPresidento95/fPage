@@ -6,4 +6,4 @@ lorem
 
 
 ## licencja
-opis
+opis opis
